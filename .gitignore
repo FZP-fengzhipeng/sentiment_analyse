@@ -1,0 +1,26 @@
+# 前端（不上传）
+front/
+
+# 环境与密钥
+.env
+.venv/
+__pycache__/
+*.pyc
+.idea/
+
+# 运行产物
+engines/logs/
+*.log
+data/report/
+output/
+
+# 个人简历相关（与项目无关）
+*.docx
+*.pdf
+build_resume.py
+.build_resume_editable.py
+.convert_resume_pdf.py
+.resume_*.py
+resume_format_qa/
+render_final/
+**/data/report/
